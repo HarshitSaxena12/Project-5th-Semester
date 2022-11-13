@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EF5287"
+    android:background="#AFB6E3"
     tools:context=".PhoneNumberActivity">
 
     <ImageView
@@ -16,15 +16,15 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/images1" />
+        app:srcCompat="@drawable/download" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/phoneLbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
-        android:text="Verify +918173869099"
+        android:text="Verify +919368546454"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -37,13 +37,14 @@
         android:layout_width="294dp"
         android:layout_height="28dp"
         android:layout_marginTop="6dp"
+        android:background="#E1CDCD"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="Enter the OTP code to verify your number"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintEnd_toEndOf="@+id/phoneLbl"
+        app:layout_constraintStart_toStartOf="@+id/phoneLbl"
+        app:layout_constraintTop_toBottomOf="@+id/phoneLbl" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -71,9 +72,9 @@
                 android:layout_marginTop="5dp"
                 android:focusableInTouchMode="true"
                 android:inputType="number"
-                android:itemBackground="@color/grey"
+                android:itemBackground="#A6CEED"
                 app:OtpItemCount="6"
-                app:OtpLineColor="@color/grey"
+                app:OtpLineColor="#C66A6A"
                 app:OtpViewType="line"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -82,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#EAC50C"
+                android:backgroundTint="#8BC34A"
                 android:text="Continue" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
