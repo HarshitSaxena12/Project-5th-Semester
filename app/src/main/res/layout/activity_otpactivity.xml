@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/download" />
+        app:srcCompat="@drawable/download"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/phoneLbl"
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
-        android:text="Verify +919368546454"
+        android:text="@string/verify_919368546454"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -40,7 +41,7 @@
         android:background="#E1CDCD"
         android:fontFamily="sans-serif"
         android:gravity="center"
-        android:text="Enter the OTP code to verify your number"
+        android:text="@string/enter_the_otp_code_to_verify_your_number"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/phoneLbl"
         app:layout_constraintStart_toStartOf="@+id/phoneLbl"

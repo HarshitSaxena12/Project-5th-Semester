@@ -8,9 +8,10 @@
     <item
         android:id="@+id/status"
         android:icon="@drawable/ic_status"
-        android:title="Status" />
+        android:title="@string/status" />
     <item
         android:id="@+id/calls"
         android:icon="@drawable/ic_call"
-        android:title="Calls" />
+
+        android:title="@string/calls" />
 </menu>

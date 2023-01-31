@@ -23,6 +23,8 @@ public class PhoneNumberActivity extends AppCompatActivity {
 
         auth=FirebaseAuth.getInstance();
 
+
+
         if(auth.getCurrentUser() != null){
 
             Intent intent = new Intent(PhoneNumberActivity.this,MainActivity.class);
@@ -30,6 +32,10 @@ public class PhoneNumberActivity extends AppCompatActivity {
             finish();
 
         }
+
+
+
+
 
         getSupportActionBar().hide();
 

@@ -7,11 +7,12 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.RecyclerViewAccessibilityDelegate;
 
+import com.bumptech.glide.Glide;
 import com.example.chatgram.databinding.RowConversationBinding;
 
 import java.util.ArrayList;
+
 
 public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersViewHolder> {
     Context context;
@@ -21,10 +22,6 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersViewHol
 
         this.context= context;
         this.users =users;
-    }
-
-    public UsersAdapter(){
-
     }
 
     @NonNull
@@ -41,6 +38,12 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersViewHol
 
         holder.binding.username.setText(user.getName());
 
+        Glide.with(context).load(user.getProfileImage())
+                .placeholder(R.drawable.avatar)
+                .into(holder.binding.profile);
+
+
+
     }
 
     @Override
@@ -48,7 +51,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersViewHol
         return users.size();
     }
 
-    public class UsersViewHolder extends RecyclerView.ViewHolder {
+    public static class UsersViewHolder extends RecyclerView.ViewHolder {
 
         RowConversationBinding binding;
 

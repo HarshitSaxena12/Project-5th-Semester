@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Chatgram</string>
+    <string name="chats">Chats</string>
+    <string name="status">Status</string>
+    <string name="calls">Calls</string>
+    <string name="verify_919368546454">Verify +919368546454</string>
+    <string name="enter_the_otp_code_to_verify_your_number">Enter the OTP code to verify your number</string>
 </resources>
