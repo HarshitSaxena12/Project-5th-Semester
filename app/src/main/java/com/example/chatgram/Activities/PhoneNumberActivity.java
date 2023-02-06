@@ -1,4 +1,4 @@
-package com.example.chatgram;
+package com.example.chatgram.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.chatgram.databinding.ActivityPhoneNumberBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class PhoneNumberActivity extends AppCompatActivity {

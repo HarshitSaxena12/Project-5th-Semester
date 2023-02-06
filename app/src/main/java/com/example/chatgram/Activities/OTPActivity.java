@@ -1,4 +1,4 @@
-package com.example.chatgram;
+package com.example.chatgram.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

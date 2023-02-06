@@ -1,4 +1,4 @@
-package com.example.chatgram;
+package com.example.chatgram.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.chatgram.databinding.RowConversationBinding;
+import com.example.chatgram.Activities.ChatActivity;
+import com.example.chatgram.R;
+import com.example.chatgram.Models.User;
 
 import java.util.ArrayList;
 

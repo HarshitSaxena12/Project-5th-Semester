@@ -1,4 +1,4 @@
-package com.example.chatgram;
+package com.example.chatgram.Models;
 
 public class User {
     private String uid, name , phoneNumber , profileImage;

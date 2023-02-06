@@ -1,4 +1,4 @@
-package com.example.chatgram;
+package com.example.chatgram.Activities;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.example.chatgram.R;
+import com.example.chatgram.Models.User;
+import com.example.chatgram.Adapters.UsersAdapter;
 import com.example.chatgram.databinding.ActivityMainBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

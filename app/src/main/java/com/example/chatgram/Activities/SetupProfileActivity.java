@@ -1,10 +1,9 @@
-package com.example.chatgram;
+package com.example.chatgram.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -12,8 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 
 
-
-import com.example.chatgram.databinding.ActivitySetupProfileBinding;
+import com.example.chatgram.Models.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
