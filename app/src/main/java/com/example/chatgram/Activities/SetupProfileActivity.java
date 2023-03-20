@@ -12,6 +12,7 @@ import android.view.View;
 
 
 import com.example.chatgram.Models.User;
+import com.example.chatgram.databinding.ActivitySetupProfileBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;

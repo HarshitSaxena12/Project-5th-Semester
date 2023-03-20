@@ -13,6 +13,7 @@ import com.bumptech.glide.Glide;
 import com.example.chatgram.Activities.ChatActivity;
 import com.example.chatgram.R;
 import com.example.chatgram.Models.User;
+import com.example.chatgram.databinding.RowConversationBinding;
 
 import java.util.ArrayList;
 

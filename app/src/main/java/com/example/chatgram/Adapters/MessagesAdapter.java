@@ -44,7 +44,7 @@ public class MessagesAdapter extends RecyclerView.Adapter {
         else{
 
             View view = LayoutInflater.from(context).inflate(R.layout.item_recieve, parent ,false);
-            return new RecieverView(view);
+            return new ReceiverViewHolder(view);
         }
 
     }
@@ -71,7 +71,7 @@ public class MessagesAdapter extends RecyclerView.Adapter {
             viewHolder.binding.message.setText(message.getMessage());
         }
         else {
-            ReceiverViewHolder viewHolder = (ReceiverViewHolder) )holder;
+            ReceiverViewHolder viewHolder = (ReceiverViewHolder) holder;
             viewHolder.binding.message.setText(message.getMessage());
 
         }
@@ -94,13 +94,14 @@ public class MessagesAdapter extends RecyclerView.Adapter {
         }
     }
 
-    public class RecieverView extends RecyclerView.ViewHolder{
+    public class ReceiverViewHolder extends RecyclerView.ViewHolder{
 
         ItemRecieveBinding binding;
 
-        public RecieverView(@NonNull View itemView) {
+        public ReceiverViewHolder(@NonNull View itemView) {
             super(itemView);
             binding= ItemRecieveBinding.bind(itemView);
         }
     }
+
 }
